@@ -28,6 +28,7 @@ Python3 instaled in both machines.
 ## Configuration
 
 Serverzeira.py - Where are s.bind(('192.168.1.7')) you change it for another people external ip
+
 ClientTCPIP.py - Where are s.connect((192.168.1.7)) change for your external ip.
 
 Work better in some closed network with dhcp, 192.168.1.2 ~ 192.168.1.24 in home/corporative networks.
